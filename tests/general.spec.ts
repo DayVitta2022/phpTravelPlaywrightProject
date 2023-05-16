@@ -12,4 +12,5 @@ test.beforeEach( async ({page}) => {
 test('01- Cliente logado faz pesquisa de hoteis', async () => {
   await pw.login()
   await pw.mainSearch('tours', 'dubai', '24', '30', '3', 'italy')
+  
 })
